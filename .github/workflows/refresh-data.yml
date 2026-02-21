@@ -1,0 +1,32 @@
+name: Refresh I-79 Dataset
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build dataset
+        run: python scripts/fetch_i79_incidents.py
+
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/incidents.json docs/incidents.json
+          git diff --staged --quiet || git commit -m "chore(data): refresh I-79 incidents"
+          git push

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>I-79 Safety Monitor | North Central WV</title>
+    <meta name="description" content="Track and visualize I-79 accidents and fatalities in North Central West Virginia from local news sources." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>I-79 Safety Monitor: North Central WV</h1>
+        <p class="note">
+          Independent dashboard of reported crashes and fatalities near Interstate 79 in Monongalia, Marion, and Harrison counties.
+          Use this as a public awareness tool. Always verify details with official sources.
+        </p>
+        <p id="updated" class="note">Loading data...</p>
+      </header>
+
+      <section class="stats">
+        <article class="card">
+          <h2>Incidents</h2>
+          <p id="stat-incidents">0</p>
+        </article>
+        <article class="card">
+          <h2>Suspected Fatalities</h2>
+          <p id="stat-fatalities">0</p>
+        </article>
+        <article class="card">
+          <h2>Construction Related</h2>
+          <p id="stat-construction">0</p>
+        </article>
+        <article class="card">
+          <h2>Official WV511</h2>
+          <p id="stat-official">0</p>
+        </article>
+      </section>
+
+      <section class="timeline card">
+        <h2>Timeline (Monthly)</h2>
+        <p id="timeline-caption" class="note">Incidents and fatalities by month.</p>
+        <svg id="timeline-chart" viewBox="0 0 960 220" role="img" aria-label="Monthly incident timeline"></svg>
+      </section>
+
+      <main>
+        <section id="map" aria-label="Crash map"></section>
+
+        <aside class="panel">
+          <div class="controls" role="group" aria-label="Filters">
+            <button data-mode="all" class="active">All</button>
+            <button data-mode="construction">Construction</button>
+            <button data-mode="fatal">Possible Fatal</button>
+            <button data-mode="official">Official</button>
+          </div>
+          <ul id="incident-list" aria-live="polite"></ul>
+        </aside>
+      </main>
+
+      <footer>
+        Sources include WBOY, WDTV, and WV MetroNews RSS feeds. Entries are automatically filtered for I-79 relevance and may require manual validation.
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
