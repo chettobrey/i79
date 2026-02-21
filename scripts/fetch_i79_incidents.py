@@ -205,6 +205,7 @@ def parse_wv511_date(raw: str) -> str:
 
 
 def likely_relevant(text: str) -> bool:
+    """Return True if text mentions I-79 and at least one incident keyword."""
     lowered = text.lower()
     mentions_i79 = "i-79" in lowered or "interstate 79" in lowered or "i 79" in lowered
     mentions_incident = any(term in lowered for term in INCIDENT_TERMS)
@@ -212,6 +213,11 @@ def likely_relevant(text: str) -> bool:
 
 
 def extract_fatalities(text: str) -> int:
+    """Heuristically estimate fatality count from article text.
+
+    Returns 0 if no fatal clues are found, or 1 if fatal language is present
+    but no explicit count can be parsed.
+    """
     lowered = text.lower()
     fatal_clues = [
         "fatal",
@@ -253,6 +259,11 @@ def extract_fatalities(text: str) -> int:
 
 
 def infer_location(text: str) -> tuple[str, float | None, float | None]:
+    """Extract a location name and approximate coordinates from free text.
+
+    Prefers county-level matches; falls back to city/place name lookup.
+    Returns (location_text, lat, lon) — lat/lon are None if no match found.
+    """
     lowered = text.lower()
     county_matches: list[tuple[int, str]] = []
     for place in ("monongalia county", "marion county", "harrison county"):
@@ -304,7 +315,7 @@ def iter_feed_items(feed_xml: bytes) -> Iterable[dict]:
 def fetch(url: str) -> bytes:
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": "i79-safety-monitor/1.0 (+https://github.com/)"},
+        headers={"User-Agent": "i79-safety-monitor/1.0 (automated data pipeline)"},
     )
     with urllib.request.urlopen(req, timeout=20) as response:
         return response.read()
@@ -324,19 +335,25 @@ def parse_xml_bytes(raw: bytes) -> ET.Element | None:
 def html_to_lines(page_html: str) -> list[str]:
     stripped = re.sub(r"(?is)<script[^>]*>.*?</script>", " ", page_html)
     stripped = re.sub(r"(?is)<style[^>]*>.*?</style>", " ", stripped)
-    stripped = re.sub(r"(?i)<br\\s*/?>", "\n", stripped)
+    stripped = re.sub(r"(?i)<br\s*/?>", "\n", stripped)
     stripped = re.sub(r"(?i)</(div|li|p|td|tr|h1|h2|h3|h4|h5|h6|ul|ol|section)>", "\n", stripped)
     stripped = re.sub(r"<[^>]+>", " ", stripped)
     stripped = html.unescape(stripped)
     lines = []
     for line in stripped.splitlines():
-        compact = re.sub(r"\\s+", " ", line).strip()
+        compact = re.sub(r"\s+", " ", line).strip()
         if compact:
             lines.append(compact)
     return lines
 
 
 def parse_wv511_i79_incidents(lines: list[str]) -> list[Incident]:
+    """Parse WV511 travel delay page (converted to text lines) into Incidents.
+
+    Scans for blocks starting with 'I-79', extracts event title, county,
+    description, and last-updated timestamp, then filters to north-central
+    counties only.
+    """
     incidents: list[Incident] = []
     i = 0
     while i < len(lines):
@@ -422,6 +439,11 @@ def is_north_central_context(text: str) -> bool:
 
 
 def iter_wboy_historical_posts() -> Iterable[dict]:
+    """Yield raw WordPress post dicts from WBOY's public API.
+
+    Searches each term in WBOY_SEARCH_TERMS across paginated results going
+    back HISTORICAL_YEARS. Deduplicates by post ID across search terms.
+    """
     after_date = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=365 * HISTORICAL_YEARS)).isoformat()
     per_page = 100
 
@@ -650,6 +672,12 @@ def load_manual_overrides() -> dict:
 
 
 def apply_manual_overrides(incidents: list[Incident], payload: dict) -> list[Incident]:
+    """Apply patches and hand-entered records from manual_overrides.json.
+
+    Supports two operations:
+    - incident_overrides: patch specific fields on an existing incident by ID
+    - manual_incidents: inject fully hand-curated incident records
+    """
     by_id = {incident.id: incident for incident in incidents}
 
     for incident_id_key, patch in payload.get("incident_overrides", {}).items():
@@ -707,6 +735,7 @@ def effective_fatalities(incident: Incident) -> int:
 
 
 def build_dataset() -> dict:
+    """Ingest all sources, deduplicate, apply overrides, and return the full dataset dict."""
     incidents: list[Incident] = []
     seen: set[str] = set()
 
