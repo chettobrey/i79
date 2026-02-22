@@ -31,7 +31,7 @@
             aria-valuenow="0" aria-valuetext="Loading…" />
           <span class="date-range-val" id="date-from-label" aria-live="polite"></span>
         </div>
-        <p class="note">Showing: <strong id="date-range-summary">Loading…</strong></p>
+        <p class="note">Showing: <strong id="date-range-summary">Loading…</strong> &mdash; <span id="slider-incident-count"></span></p>
       </section>
 
       <section class="stats" aria-label="Summary statistics">
@@ -53,25 +53,31 @@
         </article>
       </section>
 
-      <section class="timeline card">
-        <h2>Timeline (Monthly)</h2>
-        <p id="timeline-caption" class="note">Incidents and fatalities by month.</p>
-        <svg id="timeline-chart" viewBox="0 0 960 220" role="img" aria-label="Monthly incident timeline"></svg>
-      </section>
-
       <main>
-        <section id="map" aria-label="Crash map — use the incident list below for keyboard navigation"></section>
+        <section id="map" aria-label="Crash map — use the incident list below for keyboard navigation">
+          <div class="map-legend" aria-label="Map legend">
+            <span class="legend-dot legend-fatal"></span>Fatality
+            <span class="legend-dot legend-construction"></span>Construction
+            <span class="legend-dot legend-other"></span>Other
+          </div>
+        </section>
 
         <aside class="panel">
           <div class="controls" role="group" aria-label="Incident type filter">
             <button data-mode="all" class="active">All</button>
             <button data-mode="construction">Construction</button>
-            <button data-mode="fatal">Possible Fatal</button>
-            <button data-mode="official">Official</button>
+            <button data-mode="fatal">Fatalities</button>
+            <button data-mode="official">WV511 Official</button>
           </div>
           <ul id="incident-list" aria-live="polite" aria-label="Filtered incident list"></ul>
         </aside>
       </main>
+
+      <section class="timeline card">
+        <h2>Timeline (Monthly)</h2>
+        <p id="timeline-caption" class="note">Incidents and fatalities by month.</p>
+        <svg id="timeline-chart" viewBox="0 0 960 220" role="img" aria-label="Monthly incident timeline"></svg>
+      </section>
 
       <footer>
         <p>

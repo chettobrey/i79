@@ -74,7 +74,7 @@ h1 {
 }
 
 .timeline {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .timeline h2 {
@@ -105,7 +105,39 @@ main {
   border-radius: 14px;
   border: 1px solid var(--line);
   overflow: hidden;
+  position: relative;
 }
+
+.map-legend {
+  position: absolute;
+  bottom: 24px;
+  left: 8px;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.78rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  pointer-events: none;
+  backdrop-filter: blur(4px);
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+}
+
+.legend-fatal { background: #b5282e; }
+.legend-construction { background: #f08a24; }
+.legend-other { background: #2f5b8f; }
 
 .panel {
   background: var(--surface);
@@ -161,6 +193,64 @@ button.active {
   text-decoration: none;
 }
 
+#incident-list a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+#incident-list details > summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+#incident-list details > summary::-webkit-details-marker {
+  display: none;
+}
+
+#incident-list details > summary::marker {
+  display: none;
+}
+
+#incident-list details > summary::before {
+  content: "▸ ";
+  font-size: 0.7rem;
+  color: var(--muted);
+  vertical-align: middle;
+}
+
+#incident-list details[open] > summary::before {
+  content: "▾ ";
+}
+
+.incident-detail {
+  padding-top: 0.5rem;
+  margin-top: 0.4rem;
+  border-top: 1px solid var(--line);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.35rem;
+}
+
+.badges .badge {
+  margin-top: 0;
+}
+
+.incident-empty {
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1.5rem 0.5rem;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  background: transparent;
+  list-style: none;
+}
+
 .meta {
   color: var(--muted);
   font-size: 0.9rem;
@@ -199,9 +289,18 @@ footer p {
   margin: 0;
 }
 
+.charity-link {
+  border-left: 3px solid var(--accent-2);
+  padding-left: 0.75rem;
+  background: rgba(240, 138, 36, 0.07);
+  border-radius: 0 6px 6px 0;
+  padding: 0.5rem 0.75rem;
+}
+
 .charity-link a {
   color: var(--accent);
   text-underline-offset: 2px;
+  font-weight: 600;
 }
 
 /* Date range slider */
@@ -257,5 +356,16 @@ input[type="range"]:focus-visible {
 
   #map {
     height: 360px;
+  }
+
+  .controls {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--surface);
+    margin: -0.85rem -0.85rem 0;
+    padding: 0.6rem 0.85rem;
+    border-bottom: 1px solid var(--line);
+    border-radius: 14px 14px 0 0;
   }
 }

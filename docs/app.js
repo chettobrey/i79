@@ -36,6 +36,14 @@ const timelineCaptionEl = document.getElementById("timeline-caption");
 const dateFromInput = document.getElementById("date-from");
 const dateFromLabel = document.getElementById("date-from-label");
 const dateRangeSummary = document.getElementById("date-range-summary");
+const sliderIncidentCount = document.getElementById("slider-incident-count");
+
+const FILTER_LABELS = {
+  all: "All",
+  construction: "Construction",
+  fatal: "Fatalities",
+  official: "WV511 Official",
+};
 
 function formatDate(iso) {
   if (!iso) return "Unknown date";
@@ -222,6 +230,16 @@ function makePopupEl(incident) {
 function render() {
   const rows = applyFilter(state.incidents, state.mode, state.dateFromTs);
 
+  // Update filter button labels with live counts for current date range
+  for (const btn of document.querySelectorAll("[data-mode]")) {
+    const count = applyFilter(state.incidents, btn.dataset.mode, state.dateFromTs).length;
+    btn.textContent = `${FILTER_LABELS[btn.dataset.mode]} (${count})`;
+  }
+
+  // Incident count feedback for the slider ("89 of 142 incidents")
+  const modeTotal = applyFilter(state.incidents, state.mode, 0).length;
+  sliderIncidentCount.textContent = `${rows.length} of ${modeTotal} incidents`;
+
   statIncidents.textContent = rows.length;
   statFatalities.textContent = rows.reduce((n, row) => n + (row.verified_fatalities ?? row.suspected_fatalities ?? 0), 0);
   statConstruction.textContent = rows.filter((x) => x.construction_related).length;
@@ -230,6 +248,14 @@ function render() {
 
   markersLayer.clearLayers();
   listEl.innerHTML = "";
+
+  if (rows.length === 0) {
+    const li = document.createElement("li");
+    li.className = "incident-empty";
+    li.textContent = "No incidents match the current filter and date range.";
+    listEl.appendChild(li);
+    return;
+  }
 
   rows.forEach((incident) => {
     if (typeof incident.lat === "number" && typeof incident.lon === "number") {
@@ -246,14 +272,22 @@ function render() {
     const li = document.createElement("li");
     const fatalityCount = incident.verified_fatalities ?? incident.suspected_fatalities ?? 0;
     li.innerHTML = `
-      <a href="${escHtml(incident.url)}" target="_blank" rel="noopener noreferrer">${escHtml(incident.title)}</a>
-      <div class="meta">${escHtml(formatDate(incident.published_at))} | ${escHtml(incident.source)} | ${escHtml(incident.location_text)}</div>
-      <div>${escHtml(incident.summary || "")}</div>
-      <span class="badge">${incident.source_type === "official_wv511" ? "Official WV511" : "News-Derived"}</span>
-      ${incident.verification_status ? `<span class="badge">${escHtml(incident.verification_status)}</span>` : ""}
-      ${incident.construction_related ? '<span class="badge construction">Construction Related</span>' : ""}
-      ${fatalityCount > 0 ? `<span class="badge fatal">Fatalities: ${fatalityCount}</span>` : ""}
-      ${incident.notes ? `<div class="meta">${escHtml(incident.notes)}</div>` : ""}
+      <details>
+        <summary>
+          <a href="${escHtml(incident.url)}" target="_blank" rel="noopener noreferrer">${escHtml(incident.title)}</a>
+          <div class="meta">${escHtml(formatDate(incident.published_at))} | ${escHtml(incident.source)} | ${escHtml(incident.location_text)}</div>
+        </summary>
+        <div class="incident-detail">
+          <div>${escHtml(incident.summary || "")}</div>
+          <div class="badges">
+            <span class="badge">${incident.source_type === "official_wv511" ? "Official WV511" : "News-Derived"}</span>
+            ${incident.verification_status ? `<span class="badge">${escHtml(incident.verification_status)}</span>` : ""}
+            ${incident.construction_related ? '<span class="badge construction">Construction Related</span>' : ""}
+            ${fatalityCount > 0 ? `<span class="badge fatal">Fatalities: ${fatalityCount}</span>` : ""}
+          </div>
+          ${incident.notes ? `<div class="meta">${escHtml(incident.notes)}</div>` : ""}
+        </div>
+      </details>
     `;
     listEl.appendChild(li);
   });
