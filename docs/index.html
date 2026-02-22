@@ -22,20 +22,41 @@
         <p id="updated" class="note">Loading data...</p>
       </header>
 
-      <section class="stats">
-        <article class="card">
+      <section class="date-range-wrap card" aria-label="Date range filter">
+        <h2>Date Range</h2>
+        <div class="date-range-row">
+          <div class="date-range-field">
+            <label for="date-from">From</label>
+            <input type="range" id="date-from" min="0" max="100" value="0"
+              role="slider" aria-label="Start date" aria-valuemin="0" aria-valuemax="100"
+              aria-valuenow="0" aria-valuetext="Loading…" />
+            <span class="date-range-val" id="date-from-label" aria-live="polite"></span>
+          </div>
+          <div class="date-range-field">
+            <label for="date-to">To</label>
+            <input type="range" id="date-to" min="0" max="100" value="100"
+              role="slider" aria-label="End date" aria-valuemin="0" aria-valuemax="100"
+              aria-valuenow="100" aria-valuetext="Loading…" />
+            <span class="date-range-val" id="date-to-label" aria-live="polite"></span>
+          </div>
+        </div>
+        <p class="note">Showing: <strong id="date-range-summary">Loading…</strong></p>
+      </section>
+
+      <section class="stats" aria-label="Summary statistics">
+        <article class="card" aria-live="polite" aria-atomic="true">
           <h2>Incidents</h2>
           <p id="stat-incidents">0</p>
         </article>
-        <article class="card">
+        <article class="card" aria-live="polite" aria-atomic="true">
           <h2>Suspected Fatalities</h2>
           <p id="stat-fatalities">0</p>
         </article>
-        <article class="card">
+        <article class="card" aria-live="polite" aria-atomic="true">
           <h2>Construction Related</h2>
           <p id="stat-construction">0</p>
         </article>
-        <article class="card">
+        <article class="card" aria-live="polite" aria-atomic="true">
           <h2>Official WV511</h2>
           <p id="stat-official">0</p>
         </article>
@@ -48,25 +69,37 @@
       </section>
 
       <main>
-        <section id="map" aria-label="Crash map"></section>
+        <section id="map" aria-label="Crash map — use the incident list below for keyboard navigation"></section>
 
         <aside class="panel">
-          <div class="controls" role="group" aria-label="Filters">
+          <div class="controls" role="group" aria-label="Incident type filter">
             <button data-mode="all" class="active">All</button>
             <button data-mode="construction">Construction</button>
             <button data-mode="fatal">Possible Fatal</button>
             <button data-mode="official">Official</button>
           </div>
-          <ul id="incident-list" aria-live="polite"></ul>
+          <ul id="incident-list" aria-live="polite" aria-label="Filtered incident list"></ul>
         </aside>
       </main>
 
       <footer>
-        Sources include WBOY, WDTV, and WV MetroNews RSS feeds. Entries are automatically filtered for I-79 relevance and may require manual validation.
+        <p>
+          Sources include WBOY, WDTV, and WV MetroNews RSS feeds plus WV511 official delay listings.
+          Entries are automatically filtered for I-79 relevance and may require manual validation.
+        </p>
+        <p class="charity-link">
+          If you or someone you know has been affected by a traffic crash:
+          <a href="https://madd.org/west-virginia/" target="_blank" rel="noopener noreferrer">
+            MADD West Virginia
+          </a>
+          — Mothers Against Drunk Driving, providing support for crash victims and advocacy for road safety.
+        </p>
       </footer>
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="./app.js" defer></script>
+    <!-- Analytics: sign up free at goatcounter.com, then replace YOUR-ACCOUNT below -->
+    <!-- <script data-goatcounter="https://YOUR-ACCOUNT.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
   </body>
 </html>

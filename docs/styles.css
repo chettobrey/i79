@@ -191,6 +191,69 @@ footer {
   margin-top: 1rem;
   color: var(--muted);
   font-size: 0.9rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+.charity-link a {
+  color: var(--accent);
+  text-underline-offset: 2px;
+}
+
+/* Date range slider */
+.date-range-wrap {
+  margin: 0.75rem 0;
+}
+
+.date-range-wrap h2 {
+  margin: 0 0 0.65rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.date-range-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.date-range-field {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.date-range-field label {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.date-range-field input[type="range"] {
+  width: 100%;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+.date-range-val {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* Focus indicators — visible for all interactive elements */
+button:focus-visible,
+input[type="range"]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 
 @media (max-width: 950px) {
