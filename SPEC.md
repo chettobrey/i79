@@ -148,7 +148,8 @@ Applied to a combined text blob of title + summary + full content.
 |---------|----------|
 | Map | Leaflet.js map centered on North Central WV (`[39.38, -80.2]`, zoom 9). Circle markers color-coded: red = suspected/verified fatality, orange = construction-related, blue = other. |
 | Filter buttons | Four modes: `all`, `construction`, `fatal` (verified_fatalities or suspected_fatalities > 0), `official` (source_type = `official_wv511`). |
-| **Date range slider** | Prominent dual-handle slider (min/max date) displayed near the top of the page, above the stats bar. Filters all views simultaneously: map markers, timeline chart, stats counts, and incident list. Default range = full dataset. Selected range displayed as human-readable labels (e.g. "Jan 2023 – Feb 2026"). Slider bounds derive from the actual min/max `published_at` in the loaded dataset. Incidents with no `published_at` are excluded when any date filter is active. |
+| **Date range slider** | Single-handle slider setting the start date, displayed near the top of the page, above the stats bar. The end of the range is always the current date ("today"). Filters all views simultaneously: map markers, timeline chart, stats counts, and incident list. Default start = earliest incident date in dataset. Selected range displayed as "From [month year] to today". Slider bounds derive from the actual min `published_at` in the loaded dataset. Incidents with no `published_at` are excluded when a date filter is active. |
+| Timeline chart Y-axis | Left Y-axis labels show incident count scale (0, midpoint, max). Dashed horizontal gridlines at each tick. |
 | Timeline chart | SVG bar chart of monthly incident counts, last 18 months. Red line overlay for monthly fatality counts. |
 | Stats bar | Live counts for filtered set: incidents, fatalities, construction-related, official. |
 | Incident list | Scrollable list with title link, date, source, location, badges, and notes. |

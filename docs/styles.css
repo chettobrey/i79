@@ -217,12 +217,6 @@ footer p {
   color: var(--muted);
 }
 
-.date-range-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
-}
-
 .date-range-field {
   display: grid;
   gap: 0.2rem;

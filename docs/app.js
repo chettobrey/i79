@@ -22,9 +22,7 @@ const state = {
   incidents: [],
   mode: "all",
   dataMinTs: 0,
-  dataMaxTs: 0,
   dateFromTs: 0,
-  dateToTs: 0,
 };
 
 const listEl = document.getElementById("incident-list");
@@ -36,9 +34,7 @@ const statOfficial = document.getElementById("stat-official");
 const timelineEl = document.getElementById("timeline-chart");
 const timelineCaptionEl = document.getElementById("timeline-caption");
 const dateFromInput = document.getElementById("date-from");
-const dateToInput = document.getElementById("date-to");
 const dateFromLabel = document.getElementById("date-from-label");
-const dateToLabel = document.getElementById("date-to-label");
 const dateRangeSummary = document.getElementById("date-range-summary");
 
 function formatDate(iso) {
@@ -57,14 +53,10 @@ function sliderTsFromValue(value) {
 
 function updateSliderLabels() {
   const fromText = formatMonthYear(state.dateFromTs);
-  const toText = formatMonthYear(state.dateToTs);
   dateFromLabel.textContent = fromText;
-  dateToLabel.textContent = toText;
-  dateRangeSummary.textContent = `${fromText} – ${toText}`;
+  dateRangeSummary.textContent = `${fromText} to today`;
   dateFromInput.setAttribute("aria-valuenow", dateFromInput.value);
   dateFromInput.setAttribute("aria-valuetext", fromText);
-  dateToInput.setAttribute("aria-valuenow", dateToInput.value);
-  dateToInput.setAttribute("aria-valuetext", toText);
 }
 
 function initSlider() {
@@ -76,29 +68,25 @@ function initSlider() {
   if (timestamps.length === 0) return;
 
   state.dataMinTs = Math.min(...timestamps);
-  state.dataMaxTs = Math.max(...timestamps);
   state.dateFromTs = state.dataMinTs;
-  state.dateToTs = state.dataMaxTs;
 
-  const totalDays = Math.ceil((state.dataMaxTs - state.dataMinTs) / 86400000);
+  const totalDays = Math.ceil((Date.now() - state.dataMinTs) / 86400000);
 
-  for (const input of [dateFromInput, dateToInput]) {
-    input.min = 0;
-    input.max = totalDays;
-    input.setAttribute("aria-valuemin", 0);
-    input.setAttribute("aria-valuemax", totalDays);
-  }
+  dateFromInput.min = 0;
+  dateFromInput.max = totalDays;
+  dateFromInput.setAttribute("aria-valuemin", 0);
+  dateFromInput.setAttribute("aria-valuemax", totalDays);
   dateFromInput.value = 0;
-  dateToInput.value = totalDays;
 
   updateSliderLabels();
 }
 
-function applyFilter(incidents, mode, fromTs, toTs) {
+function applyFilter(incidents, mode, fromTs) {
+  const toTs = Date.now();
   let rows = incidents.filter((incident) => {
     if (!incident.published_at) return false;
     const ts = new Date(incident.published_at).getTime();
-    return !isNaN(ts) && ts >= fromTs && ts <= toTs + 86400000;
+    return !isNaN(ts) && ts >= fromTs && ts <= toTs;
   });
 
   if (mode === "construction") return rows.filter((x) => x.construction_related);
@@ -192,8 +180,18 @@ function renderTimeline(rows) {
     <text x="${padLeft + 112}" y="${height - 24}" fill="#5d6470" font-size="12">Fatalities</text>
   `;
 
+  const yTickValues = [0, Math.round(maxIncidents / 2), maxIncidents].filter((v, i, a) => a.indexOf(v) === i);
+  const yAxis = yTickValues.map((val) => {
+    const y = (padTop + chartH - (val / maxIncidents) * chartH).toFixed(2);
+    const isBaseline = val === 0;
+    return `
+      <line x1="${padLeft}" y1="${y}" x2="${width - padRight}" y2="${y}" stroke="#d8d1c4" ${isBaseline ? "" : 'stroke-dasharray="4,4"'} />
+      <text x="${padLeft - 6}" y="${(parseFloat(y) + 4).toFixed(2)}" text-anchor="end" fill="#5d6470" font-size="11">${val}</text>
+    `;
+  }).join("");
+
   timelineEl.innerHTML = `
-    <line x1="${padLeft}" y1="${padTop + chartH}" x2="${width - padRight}" y2="${padTop + chartH}" stroke="#d8d1c4" />
+    ${yAxis}
     ${bars}
     <polyline points="${linePoints}" fill="none" stroke="#b5282e" stroke-width="2.5" />
     ${labels}
@@ -222,7 +220,7 @@ function makePopupEl(incident) {
 }
 
 function render() {
-  const rows = applyFilter(state.incidents, state.mode, state.dateFromTs, state.dateToTs);
+  const rows = applyFilter(state.incidents, state.mode, state.dateFromTs);
 
   statIncidents.textContent = rows.length;
   statFatalities.textContent = rows.reduce((n, row) => n + (row.verified_fatalities ?? row.suspected_fatalities ?? 0), 0);
@@ -261,22 +259,9 @@ function render() {
   });
 }
 
-// Date range slider handlers
+// Date range slider handler
 dateFromInput.addEventListener("input", () => {
-  if (parseInt(dateFromInput.value) > parseInt(dateToInput.value)) {
-    dateFromInput.value = dateToInput.value;
-  }
   state.dateFromTs = sliderTsFromValue(dateFromInput.value);
-  updateSliderLabels();
-  render();
-  window.goatcounter?.count({ path: "/date-range", title: "Date range changed" });
-});
-
-dateToInput.addEventListener("input", () => {
-  if (parseInt(dateToInput.value) < parseInt(dateFromInput.value)) {
-    dateToInput.value = dateFromInput.value;
-  }
-  state.dateToTs = sliderTsFromValue(dateToInput.value);
   updateSliderLabels();
   render();
   window.goatcounter?.count({ path: "/date-range", title: "Date range changed" });
