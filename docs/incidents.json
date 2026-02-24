@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-02-23T20:08:00.672136+00:00",
-    "incident_count": 186,
+    "generated_at": "2026-02-24T05:15:58.518554+00:00",
+    "incident_count": 187,
     "suspected_fatalities": 28,
     "construction_related_count": 37,
     "official_source_count": 6,
     "verified_count": 6
   },
   "incidents": [
+    {
+      "id": "64549709a4bc",
+      "title": "I-79 South in Kanawha County closed following crash",
+      "url": "https://wvmetronews.com/2026/02/23/i-79-south-in-kanawha-county-closed-following-crash/",
+      "source": "wvmetronews.com",
+      "published_at": "2026-02-23T23:55:10+00:00",
+      "summary": "The crash was reported around 5 p.m. The post I-79 South in Kanawha County closed following crash appeared first on WV MetroNews .",
+      "location_text": "Unspecified stretch",
+      "lat": null,
+      "lon": null,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "471cf11434e2",
       "title": "UPDATE: I-79 North reopen after vehicle accident in Harrison County",
