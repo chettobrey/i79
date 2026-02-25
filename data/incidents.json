@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-02-25T14:44:52.699039+00:00",
-    "incident_count": 188,
+    "generated_at": "2026-02-25T19:58:10.008121+00:00",
+    "incident_count": 189,
     "suspected_fatalities": 28,
     "construction_related_count": 38,
-    "official_source_count": 7,
-    "verified_count": 7
+    "official_source_count": 8,
+    "verified_count": 8
   },
   "incidents": [
+    {
+      "id": "68e850899717",
+      "title": "I-79 Pot hole Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-02-25T13:03:41+00:00",
+      "summary": "Pot hole Roadway on I-79N at Mile Marker 121.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "a05f98ef4009",
       "title": "I-79 Paving Operations",
