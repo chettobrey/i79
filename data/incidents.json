@@ -1,8 +1,8 @@
 {
   "summary": {
-    "generated_at": "2026-02-25T05:18:25.557628+00:00",
-    "incident_count": 188,
-    "suspected_fatalities": 28,
+    "generated_at": "2026-02-25T08:08:25.023993+00:00",
+    "incident_count": 184,
+    "suspected_fatalities": 27,
     "construction_related_count": 38,
     "official_source_count": 7,
     "verified_count": 7
@@ -1097,23 +1097,6 @@
       "notes": ""
     },
     {
-      "id": "454810a86eb2",
-      "title": "I-79 N reopens after 2-vehicle accident",
-      "url": "https://www.wboy.com/emergencies/i-79-n-shut-down-after-2-vehicle-accident/",
-      "source": "wboy.com",
-      "published_at": "2024-02-15T12:52:06+00:00",
-      "summary": "A two-vehicle accident led to first responders shutting down Interstate 79 northbound Thursday morning.",
-      "location_text": "Marion County",
-      "lat": 39.4568,
-      "lon": -80.1542,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "news_archive",
-      "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
       "id": "dd560d09d545",
       "title": "I-79 N reopens after accident that injured 4",
       "url": "https://www.wboy.com/emergencies/4-injured-i-79-n-shut-down-after-accident/",
@@ -1420,23 +1403,6 @@
       "notes": ""
     },
     {
-      "id": "a8497c457588",
-      "title": "1 killed in I-79 accident, northbound lane reopened",
-      "url": "https://www.wboy.com/emergencies/1-killed-in-i-79-accident-northbound-lane-closed/",
-      "source": "wboy.com",
-      "published_at": "2023-07-16T19:09:50+00:00",
-      "summary": "One person has died in an vehicle accident on I-79 North near Morgantown on Sunday.",
-      "location_text": "Morgantown",
-      "lat": 39.6295,
-      "lon": -79.9559,
-      "construction_related": false,
-      "suspected_fatalities": 1,
-      "source_type": "news_archive",
-      "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
       "id": "3fd845707c1f",
       "title": "2-vehicle accident shuts down 1 lane of I-79",
       "url": "https://www.wboy.com/emergencies/2-vehicle-accident-shuts-down-1-lane-of-i-79/",
@@ -1539,23 +1505,6 @@
       "notes": ""
     },
     {
-      "id": "4078669e2d02",
-      "title": "I-79 North delayed after motorcycle accident",
-      "url": "https://www.wboy.com/emergencies/i-79-north-delayed-after-motorcycle-accident/",
-      "source": "wboy.com",
-      "published_at": "2023-04-20T20:55:53+00:00",
-      "summary": "One person was injured following an accident involving a motorcycle on I-79 Thursday afternoon.",
-      "location_text": "White Hall",
-      "lat": 39.4443,
-      "lon": -80.1723,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "news_archive",
-      "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
       "id": "4301832f530e",
       "title": "1-vehicle crash impacts traffic on I-79 & I-68 in Mon County",
       "url": "https://www.wboy.com/news/monongalia/1-vehicle-crash-impacts-traffic-on-i-79-i-68-in-mon-county/",
@@ -1582,23 +1531,6 @@
       "location_text": "Harrison County",
       "lat": 39.3032,
       "lon": -80.3781,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "news_archive",
-      "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
-      "id": "c906286bacf8",
-      "title": "Multiple-vehicle accident briefly shuts down I-79 northbound",
-      "url": "https://www.wboy.com/emergencies/multiple-vehicle-accident-shuts-down-i-79-northbound/",
-      "source": "wboy.com",
-      "published_at": "2023-03-18T23:13:09+00:00",
-      "summary": "According to Monongalia County 911 officials, the northbound lanes on Interstate 79 have been shut down near the University Town Center exit due to a multiple vehicle accident.",
-      "location_text": "Monongalia County",
-      "lat": 39.6525,
-      "lon": -80.0041,
       "construction_related": false,
       "suspected_fatalities": 0,
       "source_type": "news_archive",
