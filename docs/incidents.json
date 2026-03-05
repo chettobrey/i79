@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generated_at": "2026-03-05T05:06:53.746448+00:00",
-    "incident_count": 183,
+    "generated_at": "2026-03-05T07:58:44.702208+00:00",
+    "incident_count": 181,
     "suspected_fatalities": 28,
     "construction_related_count": 38,
     "official_source_count": 6,
@@ -2644,23 +2644,6 @@
       "notes": ""
     },
     {
-      "id": "63fd80898eda",
-      "title": "UPDATE: I-79 near mile marker 139 reopened",
-      "url": "https://www.wboy.com/emergencies/vehicle-fire-shuts-down-i-79-southbound-near-mile-marker-139/",
-      "source": "wboy.com",
-      "published_at": "2021-01-13T17:57:38+00:00",
-      "summary": "UPDATE (1/13/21 1:25 p.m.): FAIRMONT, W.Va. \u2014 The southbound lane which had been closed due to a vehicle fire is now reopened. According to the Marion County Communications center, the scene was cleared and the lanes were reopened at 1:07 p.m. ORIGINAL (1/13/21 12:57 p.m.): FAIRMONT, W.Va. \u2014 A vehicle fire has shut down I-79 [\u2026]",
-      "location_text": "Marion County",
-      "lat": 39.4568,
-      "lon": -80.1542,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "news_archive",
-      "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
       "id": "a1569bfb3009",
       "title": "UPDATE: All lanes open after I-79 accident near mile marker 141",
       "url": "https://www.wboy.com/emergencies/tractor-trailer-into-median-results-in-fast-lane-closure-of-i-79-northbound-near-mile-marker-141/",
@@ -3044,23 +3027,6 @@
       "location_text": "Harrison County",
       "lat": 39.3032,
       "lon": -80.3781,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "news_archive",
-      "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
-      "id": "34715303cd48",
-      "title": "1 northbound lane of I-79 shut down due to incident involving a tractor trailer",
-      "url": "https://www.wboy.com/top-stories/1-northbound-lane-of-i-79-shut-down-due-to-incident-involving-a-tractor-trailer/",
-      "source": "wboy.com",
-      "published_at": "2020-07-10T01:52:05+00:00",
-      "summary": "MARION COUNTY, W.Va. \u2013 An incident involving a tractor trailer has caused the shutdown of one northbound lane of traffic on I-79. According to Marion County 911 officials, the tractor trailer hydroplaned off the road, near mile marker 130, due to rain. At this time, no injuries have been reported. The Division of Highways, West [\u2026]",
-      "location_text": "Marion County",
-      "lat": 39.4568,
-      "lon": -80.1542,
       "construction_related": false,
       "suspected_fatalities": 0,
       "source_type": "news_archive",
