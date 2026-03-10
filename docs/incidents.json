@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-03-10T14:36:20.789415+00:00",
-    "incident_count": 183,
+    "generated_at": "2026-03-10T19:55:45.327530+00:00",
+    "incident_count": 184,
     "suspected_fatalities": 28,
-    "construction_related_count": 38,
-    "official_source_count": 6,
-    "verified_count": 6
+    "construction_related_count": 39,
+    "official_source_count": 7,
+    "verified_count": 7
   },
   "incidents": [
+    {
+      "id": "76cdca451c6a",
+      "title": "I-79 Construction",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-03-10T13:12:08+00:00",
+      "summary": "Construction on I-79S at Mile Marker 124.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": true,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "d72324d9ed20",
       "title": "1 dead following Monday vehicle accident on I-79: WVSP",
