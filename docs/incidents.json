@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-03-15T14:01:56.232453+00:00",
-    "incident_count": 185,
-    "suspected_fatalities": 28,
+    "generated_at": "2026-03-15T19:20:28.382549+00:00",
+    "incident_count": 187,
+    "suspected_fatalities": 30,
     "construction_related_count": 39,
     "official_source_count": 7,
     "verified_count": 7
   },
   "incidents": [
+    {
+      "id": "7223be90cc88",
+      "title": "Harrison County juvenile dead after crash in Morgantown, investigation underway",
+      "url": "https://www.wboy.com/news/harrison-county-juvenile-dead-after-crash-in-morgantown-investigation-underway/",
+      "source": "wboy.com",
+      "published_at": "2026-03-15T14:27:50+00:00",
+      "summary": "According to the Monongalia County Sheriff's Office, the accident occurred at around 4:30 a.m. on I-79 southbound at mile marker 143.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 1,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "066f4026ebb0",
+      "title": "Harrison County juvenile dead in single-vehicle crash on I-79",
+      "url": "https://www.wdtv.com/2026/03/15/fatal-single-vehicle-crash-i-79-under-investigation/",
+      "source": "wdtv.com",
+      "published_at": "2026-03-15T14:04:43.577000+00:00",
+      "summary": "The Monongalia County Sheriff\u2019s Office is investigating a fatal single-vehicle accident that occurred this morning.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 1,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "3c94bfb5296e",
       "title": "3 vehicle wreck slows traffic in Anmoore; 1 transported",
