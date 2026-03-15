@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated_at": "2026-03-14T19:18:41.386302+00:00",
+    "generated_at": "2026-03-15T05:30:17.437635+00:00",
     "incident_count": 185,
     "suspected_fatalities": 28,
     "construction_related_count": 39,
@@ -15,12 +15,12 @@
       "source": "wboy.com",
       "published_at": "2026-03-13T22:41:56+00:00",
       "summary": "One person was taken to the hospital Friday evening following a three-vehicle accident in Anmoore near the Interstate 79 onramp.",
-      "location_text": "Unspecified stretch",
-      "lat": null,
-      "lon": null,
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
       "construction_related": false,
       "suspected_fatalities": 0,
-      "source_type": "news",
+      "source_type": "news_archive",
       "verification_status": "unverified",
       "verified_fatalities": null,
       "notes": ""
