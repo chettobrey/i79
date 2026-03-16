@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated_at": "2026-03-16T09:48:04.078479+00:00",
+    "generated_at": "2026-03-16T15:46:27.909172+00:00",
     "incident_count": 187,
     "suspected_fatalities": 30,
     "construction_related_count": 39,
@@ -9,9 +9,9 @@
   },
   "incidents": [
     {
-      "id": "7223be90cc88",
+      "id": "331ed5d92293",
       "title": "Harrison County juvenile dead after crash in Morgantown, investigation underway",
-      "url": "https://www.wboy.com/news/harrison-county-juvenile-dead-after-crash-in-morgantown-investigation-underway/",
+      "url": "https://www.wboy.com/news/harrison/harrison-county-juvenile-dead-after-crash-in-morgantown-investigation-underway/",
       "source": "wboy.com",
       "published_at": "2026-03-15T14:27:50+00:00",
       "summary": "According to the Monongalia County Sheriff's Office, the accident occurred at around 4:30 a.m. on I-79 southbound at mile marker 143.",
