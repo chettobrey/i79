@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-03-16T20:00:19.979022+00:00",
-    "incident_count": 187,
-    "suspected_fatalities": 30,
+    "generated_at": "2026-03-17T05:15:26.248918+00:00",
+    "incident_count": 189,
+    "suspected_fatalities": 31,
     "construction_related_count": 39,
     "official_source_count": 7,
     "verified_count": 7
   },
   "incidents": [
+    {
+      "id": "1e8c3b428f51",
+      "title": "UPDATE: Crews respond to Accident on I-79 in Marion County, roadway reopened",
+      "url": "https://www.wdtv.com/2026/03/16/accident-i-79-marion-county-roadway-shut-down/",
+      "source": "wdtv.com",
+      "published_at": "2026-03-16T23:32:23.920000+00:00",
+      "summary": "Crews are on scene of a vehicle accident on I-79 Northbound at mile marker 130 as of 7:04 p.m.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "3407ad34e200",
+      "title": "Harrison County juvenile killed in single-vehicle crash in Monongalia County",
+      "url": "https://wvmetronews.com/2026/03/15/harrison-county-juvenile-killed-in-single-vehicle-crash-in-monongalia-county/",
+      "source": "wvmetronews.com",
+      "published_at": "2026-03-15T15:46:09+00:00",
+      "summary": "Witnesses said the vehicle veered off of I-79 and struck a tree. The post Harrison County juvenile killed in single-vehicle crash in Monongalia County appeared first on WV MetroNews .",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 1,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "331ed5d92293",
       "title": "Harrison County juvenile dead after crash in Morgantown, investigation underway",
