@@ -1,16 +1,33 @@
 {
   "summary": {
-    "generated_at": "2026-03-17T05:15:26.248918+00:00",
+    "generated_at": "2026-03-17T15:45:16.937162+00:00",
     "incident_count": 189,
-    "suspected_fatalities": 31,
+    "suspected_fatalities": 30,
     "construction_related_count": 39,
-    "official_source_count": 7,
-    "verified_count": 7
+    "official_source_count": 8,
+    "verified_count": 8
   },
   "incidents": [
     {
-      "id": "1e8c3b428f51",
-      "title": "UPDATE: Crews respond to Accident on I-79 in Marion County, roadway reopened",
+      "id": "553172e9f284",
+      "title": "I-79 Debris in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-03-17T10:05:08+00:00",
+      "summary": "Debris in Roadway on I-79S at Mile Marker 147.5.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "c863a020bf10",
+      "title": "UPDATE: More information released after Valley VFD responds to accident on I-79 in Marion County",
       "url": "https://www.wdtv.com/2026/03/16/accident-i-79-marion-county-roadway-shut-down/",
       "source": "wdtv.com",
       "published_at": "2026-03-16T23:32:23.920000+00:00",
@@ -21,23 +38,6 @@
       "construction_related": false,
       "suspected_fatalities": 0,
       "source_type": "news_archive_wdtv",
-      "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
-      "id": "3407ad34e200",
-      "title": "Harrison County juvenile killed in single-vehicle crash in Monongalia County",
-      "url": "https://wvmetronews.com/2026/03/15/harrison-county-juvenile-killed-in-single-vehicle-crash-in-monongalia-county/",
-      "source": "wvmetronews.com",
-      "published_at": "2026-03-15T15:46:09+00:00",
-      "summary": "Witnesses said the vehicle veered off of I-79 and struck a tree. The post Harrison County juvenile killed in single-vehicle crash in Monongalia County appeared first on WV MetroNews .",
-      "location_text": "Harrison County",
-      "lat": 39.3032,
-      "lon": -80.3781,
-      "construction_related": false,
-      "suspected_fatalities": 1,
-      "source_type": "news",
       "verification_status": "unverified",
       "verified_fatalities": null,
       "notes": ""
