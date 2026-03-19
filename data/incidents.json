@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generated_at": "2026-03-18T19:56:27.016533+00:00",
-    "incident_count": 188,
+    "generated_at": "2026-03-19T05:16:47.410524+00:00",
+    "incident_count": 187,
     "suspected_fatalities": 30,
     "construction_related_count": 40,
     "official_source_count": 7,
@@ -3177,23 +3177,6 @@
       "source": "wboy.com",
       "published_at": "2020-06-04T05:18:06+00:00",
       "summary": "LOST CREEK, W.Va. \u2013 Two people was transported to the United Hospital Center following a single-vehicle accident in Harrison County. According to Harrison County 911 officials, first responders were alerted at 12:33 a.m. Thursday of an accident on I-79, at mile marker 108 in Lost Creek. There is no word on the extent of injuries [\u2026]",
-      "location_text": "Harrison County",
-      "lat": 39.3032,
-      "lon": -80.3781,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "news_archive",
-      "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
-      "id": "f4e662dbc255",
-      "title": "1 person has been transported to the hospital following multi-car accident in Harrison County",
-      "url": "https://www.wboy.com/emergencies/1-person-has-been-transported-to-the-hospital-following-multi-car-accident-in-harrison-county/",
-      "source": "wboy.com",
-      "published_at": "2020-03-20T04:07:12+00:00",
-      "summary": "ANMOORE, W.Va. \u2013 One patient has been transported to the UHC following a multi-vehicle accident involving a tractor trailer in Harrison County. According to Harrison County 911 officials, the accident occurred on I-79 Southbound between the Anmoore and Clarksburg exits at approximately 11:22 p.m. Both lanes are shut down at the time of the accident, [\u2026]",
       "location_text": "Harrison County",
       "lat": 39.3032,
       "lon": -80.3781,
