@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-03-20T08:00:27.230023+00:00",
-    "incident_count": 187,
+    "generated_at": "2026-03-20T14:31:45.326697+00:00",
+    "incident_count": 188,
     "suspected_fatalities": 30,
     "construction_related_count": 40,
-    "official_source_count": 7,
-    "verified_count": 7
+    "official_source_count": 8,
+    "verified_count": 8
   },
   "incidents": [
+    {
+      "id": "56cd93b903d4",
+      "title": "I-79 Pothole Patching Operations",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-03-20T09:53:57+00:00",
+      "summary": "Pothole Patching Operations on I-79S from Mile Marker 155.0 to Mile Marker 154.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "01d9660e6079",
       "title": "Man charged with DUI in Marion County rollover that closed I-79",
