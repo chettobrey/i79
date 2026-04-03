@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-04-03T12:41:38.493267+00:00",
-    "incident_count": 184,
+    "generated_at": "2026-04-03T18:35:40.079594+00:00",
+    "incident_count": 185,
     "suspected_fatalities": 29,
     "construction_related_count": 38,
-    "official_source_count": 5,
-    "verified_count": 5
+    "official_source_count": 6,
+    "verified_count": 6
   },
   "incidents": [
+    {
+      "id": "ed99195ab10d",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-04-03T14:09:14+00:00",
+      "summary": "Vehicle Crash on I-79N at Mile Marker 149.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "01d9660e6079",
       "title": "Man charged with DUI in Marion County rollover that closed I-79",
