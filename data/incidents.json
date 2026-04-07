@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-04-06T18:44:47.828532+00:00",
-    "incident_count": 184,
+    "generated_at": "2026-04-07T01:24:24.064747+00:00",
+    "incident_count": 185,
     "suspected_fatalities": 29,
     "construction_related_count": 38,
     "official_source_count": 5,
     "verified_count": 5
   },
   "incidents": [
+    {
+      "id": "ae223f85b646",
+      "title": "3 people taken to hospital after vehicle accident on I-79 in Bridgeport",
+      "url": "https://www.wdtv.com/2026/04/06/3-people-taken-hospital-after-vehicle-accident-i-79-bridgeport/",
+      "source": "wdtv.com",
+      "published_at": "2026-04-06T20:06:47.770000+00:00",
+      "summary": "Three people were taken to the hospital after a vehicle accident on I-79 in Bridgeport Monday afternoon.",
+      "location_text": "Bridgeport",
+      "lat": 39.2865,
+      "lon": -80.2562,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "01d9660e6079",
       "title": "Man charged with DUI in Marion County rollover that closed I-79",
