@@ -1,30 +1,13 @@
 {
   "summary": {
-    "generated_at": "2026-04-09T18:52:10.902609+00:00",
-    "incident_count": 187,
+    "generated_at": "2026-04-10T01:26:40.904801+00:00",
+    "incident_count": 186,
     "suspected_fatalities": 29,
-    "construction_related_count": 39,
-    "official_source_count": 7,
-    "verified_count": 7
+    "construction_related_count": 38,
+    "official_source_count": 6,
+    "verified_count": 6
   },
   "incidents": [
-    {
-      "id": "56a67544f27d",
-      "title": "I-79 Construction",
-      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
-      "source": "wv511.org",
-      "published_at": "2026-04-09T07:47:58+00:00",
-      "summary": "Construction on I-79S at Mile Marker 155.0.",
-      "location_text": "Monongalia County",
-      "lat": 39.6525,
-      "lon": -80.0041,
-      "construction_related": true,
-      "suspected_fatalities": 0,
-      "source_type": "official_wv511",
-      "verification_status": "official",
-      "verified_fatalities": null,
-      "notes": ""
-    },
     {
       "id": "5f4f1a71b80c",
       "title": "I-79 Median/Jersey Wall repair/Installation",
