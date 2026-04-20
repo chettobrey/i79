@@ -1,30 +1,13 @@
 {
   "summary": {
-    "generated_at": "2026-04-19T12:40:40.463530+00:00",
-    "incident_count": 125,
+    "generated_at": "2026-04-20T01:49:14.344577+00:00",
+    "incident_count": 124,
     "suspected_fatalities": 18,
     "construction_related_count": 29,
     "official_source_count": 7,
     "verified_count": 7
   },
   "incidents": [
-    {
-      "id": "eedbfac76dab",
-      "title": "Man crashes through I-79 roadblock, charged with DUI",
-      "url": "https://wvmetronews.com/2026/04/17/man-crashes-through-i-79-roadblock-charged-with-dui/",
-      "source": "wvmetronews.com",
-      "published_at": "2026-04-17T09:08:55+00:00",
-      "summary": "St. Albans man crashed into DOH truck and sheriff\u2019s department cruiser. The post Man crashes through I-79 roadblock, charged with DUI appeared first on WV MetroNews .",
-      "location_text": "Unspecified stretch",
-      "lat": null,
-      "lon": null,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "news",
-      "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
     {
       "id": "23172ac1e80a",
       "title": "1 patient transported after single-vehicle accident on I-79S in Morgantown",
