@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-04-27T08:07:04.324549+00:00",
-    "incident_count": 122,
+    "generated_at": "2026-04-27T13:20:03.681768+00:00",
+    "incident_count": 124,
     "suspected_fatalities": 18,
     "construction_related_count": 28,
-    "official_source_count": 6,
-    "verified_count": 6
+    "official_source_count": 8,
+    "verified_count": 8
   },
   "incidents": [
+    {
+      "id": "b71b6f77531a",
+      "title": "I-79 Debris in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-04-27T08:58:39+00:00",
+      "summary": "Debris in Roadway on I-79S at Mile Marker 155.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "26289963b105",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-04-27T07:41:04+00:00",
+      "summary": "Vehicle Crash on I-79N at Mile Marker 111.5.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "5f4f1a71b80c",
       "title": "I-79 Median/Jersey Wall repair/Installation",
