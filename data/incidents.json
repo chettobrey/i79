@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generated_at": "2026-04-28T19:22:13.891000+00:00",
-    "incident_count": 106,
+    "generated_at": "2026-04-29T02:02:53.632836+00:00",
+    "incident_count": 105,
     "suspected_fatalities": 10,
     "construction_related_count": 25,
-    "official_source_count": 7,
-    "verified_count": 7
+    "official_source_count": 6,
+    "verified_count": 6
   },
   "incidents": [
     {
@@ -22,23 +22,6 @@
       "suspected_fatalities": 0,
       "source_type": "news_archive_wdtv",
       "verification_status": "unverified",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
-      "id": "5210b2285ea8",
-      "title": "I-79 Vehicle Crash",
-      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
-      "source": "wv511.org",
-      "published_at": "2026-04-28T13:20:18+00:00",
-      "summary": "Vehicle Crash on I-79S at Mile Marker 113.0.",
-      "location_text": "Harrison County",
-      "lat": 39.3032,
-      "lon": -80.3781,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "official_wv511",
-      "verification_status": "official",
       "verified_fatalities": null,
       "notes": ""
     },
