@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-05-01T12:58:07.396742+00:00",
-    "incident_count": 105,
+    "generated_at": "2026-05-01T18:59:49.217774+00:00",
+    "incident_count": 107,
     "suspected_fatalities": 10,
     "construction_related_count": 25,
     "official_source_count": 6,
     "verified_count": 6
   },
   "incidents": [
+    {
+      "id": "e43380a952a9",
+      "title": "State police investigating I-79 southbound crash in Monongalia County",
+      "url": "https://wvmetronews.com/2026/05/01/state-police-investigating-i-79-southbound-crash-in-mon-county/",
+      "source": "wvmetronews.com",
+      "published_at": "2026-05-01T17:38:36+00:00",
+      "summary": "Several vehicles involved. The post State police investigating I-79 southbound crash in Monongalia County appeared first on WV MetroNews .",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "fb5daece2581",
+      "title": "Vehicle accident shuts down I-79 South in Monongalia County",
+      "url": "https://www.wdtv.com/2026/05/01/vehicle-accident-shuts-down-i-79-south-monongalia-county/",
+      "source": "wdtv.com",
+      "published_at": "2026-05-01T17:35:06.287000+00:00",
+      "summary": "A vehicle accident has shut down I-79 South in Monongalia County Friday afternoon.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "32ea1fc13948",
       "title": "Driver refuses medical attention after rollover accident on I-79 in Harrison County",
