@@ -1,30 +1,13 @@
 {
   "summary": {
-    "generated_at": "2026-05-06T08:09:53.501732+00:00",
-    "incident_count": 106,
+    "generated_at": "2026-05-06T13:32:18.337018+00:00",
+    "incident_count": 105,
     "suspected_fatalities": 10,
     "construction_related_count": 25,
-    "official_source_count": 7,
-    "verified_count": 7
+    "official_source_count": 6,
+    "verified_count": 6
   },
   "incidents": [
-    {
-      "id": "0c618ade0ac3",
-      "title": "I-79 Vehicle Crash",
-      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
-      "source": "wv511.org",
-      "published_at": "2026-05-06T01:10:50+00:00",
-      "summary": "Vehicle Crash on I-79N at Mile Marker 115.0.",
-      "location_text": "Harrison County",
-      "lat": 39.3032,
-      "lon": -80.3781,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "official_wv511",
-      "verification_status": "official",
-      "verified_fatalities": null,
-      "notes": ""
-    },
     {
       "id": "fb5daece2581",
       "title": "Vehicle accident shuts down I-79 South in Monongalia County",
