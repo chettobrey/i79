@@ -734,10 +734,48 @@ def effective_fatalities(incident: Incident) -> int:
     return incident.suspected_fatalities
 
 
-def build_dataset() -> dict:
-    """Ingest all sources, deduplicate, apply overrides, and return the full dataset dict."""
+def load_existing_incidents() -> tuple[list[Incident], set[str]]:
+    """Seed from the previously saved dataset so records are never silently dropped."""
+    if not DATA_PATH.exists():
+        return [], set()
+    try:
+        payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return [], set()
     incidents: list[Incident] = []
     seen: set[str] = set()
+    for raw in payload.get("incidents", []):
+        if not isinstance(raw, dict):
+            continue
+        iid = raw.get("id", "")
+        if not iid or iid in seen:
+            continue
+        seen.add(iid)
+        incidents.append(
+            Incident(
+                id=iid,
+                title=raw.get("title", ""),
+                url=raw.get("url", ""),
+                source=raw.get("source", ""),
+                published_at=raw.get("published_at", ""),
+                summary=raw.get("summary", ""),
+                location_text=raw.get("location_text", ""),
+                lat=raw.get("lat"),
+                lon=raw.get("lon"),
+                construction_related=bool(raw.get("construction_related", False)),
+                suspected_fatalities=int(raw.get("suspected_fatalities", 0)),
+                source_type=raw.get("source_type", "news"),
+                verification_status=raw.get("verification_status", "unverified"),
+                verified_fatalities=raw.get("verified_fatalities"),
+                notes=raw.get("notes", ""),
+            )
+        )
+    return incidents, seen
+
+
+def build_dataset() -> dict:
+    """Ingest all sources, deduplicate, apply overrides, and return the full dataset dict."""
+    incidents, seen = load_existing_incidents()
 
     for feed in RSS_FEEDS:
         try:
