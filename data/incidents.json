@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-05-21T14:42:14.693737+00:00",
-    "incident_count": 186,
+    "generated_at": "2026-05-21T19:45:17.007674+00:00",
+    "incident_count": 188,
     "suspected_fatalities": 29,
     "construction_related_count": 38,
     "official_source_count": 7,
     "verified_count": 7
   },
   "incidents": [
+    {
+      "id": "93743a76f1b0",
+      "title": "Jackknifed log truck stalls southbound traffic on I-79 in Harrison County",
+      "url": "https://wvmetronews.com/2026/05/21/jackknifed-log-truck-stalls-southbound-traffic-on-i-79-in-harrison-county/",
+      "source": "wvmetronews.com",
+      "published_at": "2026-05-21T19:00:31+00:00",
+      "summary": "Wreck happened at about 11:30 Thursday morning. The post Jackknifed log truck stalls southbound traffic on I-79 in Harrison County appeared first on WV MetroNews .",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "b71729258f5f",
+      "title": "Jackknifed tractor trailer shuts down I-79 South in Harrison County for 3 hours",
+      "url": "https://www.wdtv.com/2026/05/21/jackknifed-tractor-trailer-shutdowns-i-79-south-harrison-county-nearly-3-hours/",
+      "source": "wdtv.com",
+      "published_at": "2026-05-21T18:03:38.576000+00:00",
+      "summary": "A jackknifed tractor trailer shutdown I-79 South in Harrison County for nearly three hours Thursday.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "2d302e0afa59",
       "title": "I-79 Vehicle Crash",
