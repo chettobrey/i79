@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-06-04T02:44:34.598057+00:00",
-    "incident_count": 195,
+    "generated_at": "2026-06-04T09:45:30.637934+00:00",
+    "incident_count": 196,
     "suspected_fatalities": 29,
     "construction_related_count": 38,
-    "official_source_count": 12,
-    "verified_count": 12
+    "official_source_count": 13,
+    "verified_count": 13
   },
   "incidents": [
+    {
+      "id": "425e1c4ec379",
+      "title": "I-79 Debris in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-06-04T05:11:44+00:00",
+      "summary": "Debris in Roadway on I-79N at Mile Marker 157.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "53b8078a7763",
       "title": "I-79 Vehicle Crash",
