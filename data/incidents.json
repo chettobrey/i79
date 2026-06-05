@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated_at": "2026-06-05T02:31:42.719611+00:00",
+    "generated_at": "2026-06-05T09:32:50.663293+00:00",
     "incident_count": 198,
     "suspected_fatalities": 29,
     "construction_related_count": 38,
@@ -8,6 +8,23 @@
     "verified_count": 15
   },
   "incidents": [
+    {
+      "id": "f3edac552b72",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-06-05T04:32:10+00:00",
+      "summary": "Vehicle Crash on I-79S at Mile Marker 125.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "63b6c1093e10",
       "title": "I-79 Vehicle Crash",
@@ -83,23 +100,6 @@
       "source": "wv511.org",
       "published_at": "2026-05-29T09:31:29+00:00",
       "summary": "Pothole Patching Operations on I-79S from Mile Marker 117.0 to Mile Marker 121.0.",
-      "location_text": "Harrison County",
-      "lat": 39.3032,
-      "lon": -80.3781,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "official_wv511",
-      "verification_status": "official",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
-      "id": "f3edac552b72",
-      "title": "I-79 Vehicle Crash",
-      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
-      "source": "wv511.org",
-      "published_at": "2026-05-27T09:55:40+00:00",
-      "summary": "Vehicle Crash on I-79S at Mile Marker 125.0.",
       "location_text": "Harrison County",
       "lat": 39.3032,
       "lon": -80.3781,
