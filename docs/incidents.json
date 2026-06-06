@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-06-05T09:32:50.663293+00:00",
-    "incident_count": 198,
+    "generated_at": "2026-06-06T02:10:44.217771+00:00",
+    "incident_count": 200,
     "suspected_fatalities": 29,
     "construction_related_count": 38,
-    "official_source_count": 15,
-    "verified_count": 15
+    "official_source_count": 17,
+    "verified_count": 17
   },
   "incidents": [
+    {
+      "id": "a65ce5efe4ed",
+      "title": "I-79 Signal Out",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-06-05T21:56:35+00:00",
+      "summary": "Signal Out on I-79N Ramp 136A at Mile Marker 0.55.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "d6123cc54116",
+      "title": "I-79 Debris in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-06-05T21:14:15+00:00",
+      "summary": "Debris in Roadway on I-79S at Mile Marker 148.5.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "f3edac552b72",
       "title": "I-79 Vehicle Crash",
