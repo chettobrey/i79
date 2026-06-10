@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-06-10T14:55:24.401038+00:00",
-    "incident_count": 201,
+    "generated_at": "2026-06-10T20:14:02.966313+00:00",
+    "incident_count": 203,
     "suspected_fatalities": 29,
     "construction_related_count": 38,
-    "official_source_count": 18,
-    "verified_count": 18
+    "official_source_count": 20,
+    "verified_count": 20
   },
   "incidents": [
+    {
+      "id": "2ea27b0dde7e",
+      "title": "I-79 Debris in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-06-10T14:46:18+00:00",
+      "summary": "Debris in Roadway on I-79N at Mile Marker 112.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "36fb0f787aab",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-06-10T14:36:03+00:00",
+      "summary": "Vehicle Crash on I-79S at Mile Marker 107.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "aee07e1f088b",
       "title": "I-79 Debris in Roadway",
