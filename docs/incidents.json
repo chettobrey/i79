@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-06-17T14:52:44.254769+00:00",
-    "incident_count": 210,
+    "generated_at": "2026-06-17T20:02:01.620898+00:00",
+    "incident_count": 211,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
-    "official_source_count": 24,
-    "verified_count": 24
+    "official_source_count": 25,
+    "verified_count": 25
   },
   "incidents": [
+    {
+      "id": "36844e9e08f8",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-06-17T15:57:03+00:00",
+      "summary": "Vehicle Crash on I-79S at Mile Marker 118.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "9f2df50c8196",
       "title": "Multi-vehicle accident shuts slows traffic on I-79 south of Morgantown",
