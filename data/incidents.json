@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-06-18T10:06:54.766065+00:00",
-    "incident_count": 211,
+    "generated_at": "2026-06-18T20:13:22.134084+00:00",
+    "incident_count": 212,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
     "official_source_count": 25,
     "verified_count": 25
   },
   "incidents": [
+    {
+      "id": "c5ab53b1e131",
+      "title": "Several crashes reported after overnight storms in WV",
+      "url": "https://www.wboy.com/road-patrol/several-crashes-reported-after-overnight-storms/",
+      "source": "wboy.com",
+      "published_at": "2026-06-18T11:27:47+00:00",
+      "summary": "The WV511 website reported four vehicle crashes on I-79 between Meadowbrook Mall and the Jerry Dove exit.",
+      "location_text": "Unspecified stretch",
+      "lat": null,
+      "lon": null,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "36844e9e08f8",
       "title": "I-79 Vehicle Crash",
