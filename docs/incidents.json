@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-06-22T02:47:36.016470+00:00",
-    "incident_count": 212,
+    "generated_at": "2026-06-22T16:30:25.079979+00:00",
+    "incident_count": 213,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
-    "official_source_count": 25,
-    "verified_count": 25
+    "official_source_count": 26,
+    "verified_count": 26
   },
   "incidents": [
+    {
+      "id": "6f92fe98d214",
+      "title": "I-79 Debris in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-06-22T12:13:34+00:00",
+      "summary": "Debris in Roadway on I-79S at Mile Marker 143.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "c5ab53b1e131",
       "title": "Several crashes reported after overnight storms in WV",
