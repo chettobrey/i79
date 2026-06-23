@@ -783,7 +783,12 @@ def build_dataset() -> dict:
         except Exception:
             continue
 
-        for item in iter_feed_items(xml_bytes):
+        try:
+            feed_items = list(iter_feed_items(xml_bytes))
+        except ET.ParseError:
+            continue
+
+        for item in feed_items:
             blob = f"{item['title']} {item['description']}"
             if not likely_relevant(blob):
                 continue
