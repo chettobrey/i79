@@ -785,7 +785,8 @@ def build_dataset() -> dict:
 
         try:
             feed_items = list(iter_feed_items(xml_bytes))
-        except ET.ParseError:
+        except Exception as e:
+            print(f"WARNING: skipping feed {feed}: {e}", flush=True)
             continue
 
         for item in feed_items:
@@ -824,21 +825,31 @@ def build_dataset() -> dict:
                 )
             )
 
-    incidents.extend(fetch_wv511_incidents())
-    for incident in fetch_wdtv_historical_incidents():
-        if incident.id in seen:
-            continue
-        seen.add(incident.id)
-        incidents.append(incident)
+    try:
+        incidents.extend(fetch_wv511_incidents())
+    except Exception as e:
+        print(f"WARNING: WV511 fetch failed: {e}", flush=True)
 
-    for post in iter_wboy_historical_posts():
-        incident = to_wboy_incident(post)
-        if not incident:
-            continue
-        if incident.id in seen:
-            continue
-        seen.add(incident.id)
-        incidents.append(incident)
+    try:
+        for incident in fetch_wdtv_historical_incidents():
+            if incident.id in seen:
+                continue
+            seen.add(incident.id)
+            incidents.append(incident)
+    except Exception as e:
+        print(f"WARNING: WDTV fetch failed: {e}", flush=True)
+
+    try:
+        for post in iter_wboy_historical_posts():
+            incident = to_wboy_incident(post)
+            if not incident:
+                continue
+            if incident.id in seen:
+                continue
+            seen.add(incident.id)
+            incidents.append(incident)
+    except Exception as e:
+        print(f"WARNING: WBOY fetch failed: {e}", flush=True)
 
     incidents = apply_manual_overrides(incidents, load_manual_overrides())
     incidents.sort(key=lambda x: x.published_at or "", reverse=True)
