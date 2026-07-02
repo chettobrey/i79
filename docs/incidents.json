@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-07-02T13:31:11.153650+00:00",
-    "incident_count": 215,
+    "generated_at": "2026-07-02T19:11:27.359024+00:00",
+    "incident_count": 216,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
     "official_source_count": 28,
     "verified_count": 28
   },
   "incidents": [
+    {
+      "id": "fa6ec2c67232",
+      "title": "2 people transported after vehicle accident on I-79 south",
+      "url": "https://www.wdtv.com/2026/07/02/vehicle-accident-with-injury-entrapment-i-79s/",
+      "source": "wdtv.com",
+      "published_at": "2026-07-02T15:04:30.650000+00:00",
+      "summary": "A vehicle accident occurred on I-79S between the Clarksburg and Meadowbrook Mall exits near mile marker 120, resulting in injury and entrapment, according to the Harrison County 911 Log.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "91b54b58e222",
       "title": "I-79 Debris in Roadway",
