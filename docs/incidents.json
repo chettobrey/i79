@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-07-03T08:50:55.814719+00:00",
-    "incident_count": 216,
+    "generated_at": "2026-07-03T13:43:45.768165+00:00",
+    "incident_count": 217,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
-    "official_source_count": 28,
-    "verified_count": 28
+    "official_source_count": 29,
+    "verified_count": 29
   },
   "incidents": [
+    {
+      "id": "eb0fb23b519b",
+      "title": "I-79 Debris on Shoulder",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-07-03T09:33:37+00:00",
+      "summary": "Debris on Shoulder on I-79N at Mile Marker 139.0.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "fa6ec2c67232",
       "title": "2 people transported after vehicle accident on I-79 south",
