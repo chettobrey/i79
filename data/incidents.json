@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-07-04T13:01:36.343852+00:00",
-    "incident_count": 217,
+    "generated_at": "2026-07-04T18:58:43.946364+00:00",
+    "incident_count": 218,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
-    "official_source_count": 29,
-    "verified_count": 29
+    "official_source_count": 30,
+    "verified_count": 30
   },
   "incidents": [
+    {
+      "id": "d3c2a374f3d4",
+      "title": "I-79 Tree in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-07-04T14:49:19+00:00",
+      "summary": "Tree in Roadway on I-79S at Mile Marker 108.5.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "eb0fb23b519b",
       "title": "I-79 Debris on Shoulder",
