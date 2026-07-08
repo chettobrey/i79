@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated_at": "2026-07-08T08:09:42.043799+00:00",
+    "generated_at": "2026-07-08T13:32:40.370795+00:00",
     "incident_count": 218,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
@@ -8,6 +8,23 @@
     "verified_count": 30
   },
   "incidents": [
+    {
+      "id": "6f92fe98d214",
+      "title": "I-79 Debris in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-07-08T07:57:06+00:00",
+      "summary": "Debris in Roadway on I-79S at Mile Marker 143.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "d3c2a374f3d4",
       "title": "I-79 Tree in Roadway",
@@ -83,23 +100,6 @@
       "source": "wv511.org",
       "published_at": "2026-06-23T14:24:11+00:00",
       "summary": "Debris in Roadway on I-79S at Mile Marker 152.0.",
-      "location_text": "Monongalia County",
-      "lat": 39.6525,
-      "lon": -80.0041,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "official_wv511",
-      "verification_status": "official",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
-      "id": "6f92fe98d214",
-      "title": "I-79 Debris in Roadway",
-      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
-      "source": "wv511.org",
-      "published_at": "2026-06-22T12:13:34+00:00",
-      "summary": "Debris in Roadway on I-79S at Mile Marker 143.0.",
       "location_text": "Monongalia County",
       "lat": 39.6525,
       "lon": -80.0041,
