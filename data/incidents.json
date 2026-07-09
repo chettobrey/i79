@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated_at": "2026-07-09T14:32:31.726101+00:00",
+    "generated_at": "2026-07-09T19:24:32.133337+00:00",
     "incident_count": 218,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
@@ -8,6 +8,23 @@
     "verified_count": 30
   },
   "incidents": [
+    {
+      "id": "3905f3a0b696",
+      "title": "I-79 Congestion-Delay",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-07-09T14:52:31+00:00",
+      "summary": "Congestion-Delay on I-79S at Mile Marker 148.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "6f92fe98d214",
       "title": "I-79 Debris in Roadway",
@@ -290,23 +307,6 @@
       "location_text": "Harrison County",
       "lat": 39.3032,
       "lon": -80.3781,
-      "construction_related": false,
-      "suspected_fatalities": 0,
-      "source_type": "official_wv511",
-      "verification_status": "official",
-      "verified_fatalities": null,
-      "notes": ""
-    },
-    {
-      "id": "3905f3a0b696",
-      "title": "I-79 Congestion-Delay",
-      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
-      "source": "wv511.org",
-      "published_at": "2026-06-11T12:09:42+00:00",
-      "summary": "Congestion-Delay on I-79S at Mile Marker 148.0.",
-      "location_text": "Monongalia County",
-      "lat": 39.6525,
-      "lon": -80.0041,
       "construction_related": false,
       "suspected_fatalities": 0,
       "source_type": "official_wv511",
