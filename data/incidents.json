@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-07-09T19:24:32.133337+00:00",
-    "incident_count": 218,
+    "generated_at": "2026-07-10T01:57:21.423960+00:00",
+    "incident_count": 219,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
-    "official_source_count": 30,
-    "verified_count": 30
+    "official_source_count": 31,
+    "verified_count": 31
   },
   "incidents": [
+    {
+      "id": "9009f2a58ac2",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-07-09T19:43:30+00:00",
+      "summary": "Vehicle Crash on I-79N at Mile Marker 151.0. The northbound left lane is closed.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "3905f3a0b696",
       "title": "I-79 Congestion-Delay",
