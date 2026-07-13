@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-07-13T14:06:41.910877+00:00",
-    "incident_count": 220,
+    "generated_at": "2026-07-13T19:13:37.229748+00:00",
+    "incident_count": 222,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
-    "official_source_count": 32,
-    "verified_count": 32
+    "official_source_count": 34,
+    "verified_count": 34
   },
   "incidents": [
+    {
+      "id": "e9585aad49cc",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-07-13T15:04:33+00:00",
+      "summary": "Vehicle Crash on I-79S at Mile Marker 119.8.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "1654490691e8",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-07-13T14:29:00+00:00",
+      "summary": "Vehicle Crash on I-79N at Mile Marker 148.5.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "42169096f9bb",
       "title": "I-79 Debris in Roadway",
