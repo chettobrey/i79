@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-07-14T19:04:20.258235+00:00",
-    "incident_count": 222,
+    "generated_at": "2026-07-15T01:24:47.718221+00:00",
+    "incident_count": 223,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
-    "official_source_count": 34,
-    "verified_count": 34
+    "official_source_count": 35,
+    "verified_count": 35
   },
   "incidents": [
+    {
+      "id": "e245707c6adc",
+      "title": "I-79 Disabled Vehicle",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-07-14T18:44:03+00:00",
+      "summary": "Disabled Vehicle on I-79S at Mile Marker 148.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "e9585aad49cc",
       "title": "I-79 Vehicle Crash",
