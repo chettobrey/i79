@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-07-16T13:21:51.160831+00:00",
-    "incident_count": 223,
+    "generated_at": "2026-07-16T18:58:02.278468+00:00",
+    "incident_count": 224,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
     "official_source_count": 35,
     "verified_count": 35
   },
   "incidents": [
+    {
+      "id": "d4e197985940",
+      "title": "3-vehicle crash closes I-79 southbound at Pricketts Fort exit in Marion County",
+      "url": "https://www.wdtv.com/2026/07/16/3-vehicle-crash-closes-i-79-southbound-pricketts-fort-exit-marion-county/",
+      "source": "wdtv.com",
+      "published_at": "2026-07-16T15:16:37.770000+00:00",
+      "summary": "A crash involving three vehicles has closed the southbound lane of Interstate 79 at the Pricketts Fort exit in Marion County, according to Marion County 911.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "e245707c6adc",
       "title": "I-79 Disabled Vehicle",
