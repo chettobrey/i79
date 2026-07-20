@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generated_at": "2026-07-20T08:42:07.449104+00:00",
-    "incident_count": 225,
+    "generated_at": "2026-07-20T13:50:28.280377+00:00",
+    "incident_count": 226,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
     "official_source_count": 35,
@@ -11,6 +11,23 @@
     {
       "id": "e0196441e61a",
       "title": "Vehicle accident shuts down I-79 Southbound in Marion County on Sunday",
+      "url": "https://www.wdtv.com/2026/07/19/vehicle-accident-shuts-down-i-79-southbound-marion-county-sunday/",
+      "source": "wdtv.com",
+      "published_at": "2026-07-19T22:09:33.867000+00:00",
+      "summary": "I-79 Southbound was shut down for a period of time on Sunday evening due to a vehicle accident.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "8912310e20e7",
+      "title": "Motorcycle accident shuts down I-79 Southbound in Marion County",
       "url": "https://www.wdtv.com/2026/07/19/vehicle-accident-shuts-down-i-79-southbound-marion-county-sunday/",
       "source": "wdtv.com",
       "published_at": "2026-07-19T22:09:33.867000+00:00",
