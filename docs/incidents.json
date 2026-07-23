@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-07-23T01:53:03.826250+00:00",
-    "incident_count": 226,
+    "generated_at": "2026-07-23T08:13:26.502431+00:00",
+    "incident_count": 227,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
-    "official_source_count": 35,
-    "verified_count": 35
+    "official_source_count": 36,
+    "verified_count": 36
   },
   "incidents": [
+    {
+      "id": "f7b60ba01547",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-07-23T03:52:33+00:00",
+      "summary": "Vehicle Crash on I-79N at Mile Marker 148.0. The northbound right lane is closed.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "e0196441e61a",
       "title": "Vehicle accident shuts down I-79 Southbound in Marion County on Sunday",
