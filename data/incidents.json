@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-08-02T13:00:41.185405+00:00",
-    "incident_count": 230,
+    "generated_at": "2026-08-02T18:56:30.217458+00:00",
+    "incident_count": 231,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
     "official_source_count": 39,
     "verified_count": 39
   },
   "incidents": [
+    {
+      "id": "544a2e00d642",
+      "title": "Car goes over embankment in overnight accident on I-79 in Marion County",
+      "url": "https://www.wdtv.com/2026/08/02/car-goes-over-embankment-overnight-accident-i-79-marion-county/",
+      "source": "wdtv.com",
+      "published_at": "2026-08-02T17:42:06.383000+00:00",
+      "summary": "Valley Volunteer Fire Department crews spent more than three hours early Sunday morning rescuing occupants of a vehicle that went over a guardrail and down an embankment along I-79.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "5b0af956d9a3",
       "title": "I-79 Vehicle Crash",
