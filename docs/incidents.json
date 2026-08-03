@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-08-03T14:17:39.063015+00:00",
-    "incident_count": 231,
+    "generated_at": "2026-08-03T19:21:04.064507+00:00",
+    "incident_count": 232,
     "suspected_fatalities": 29,
     "construction_related_count": 40,
-    "official_source_count": 39,
-    "verified_count": 39
+    "official_source_count": 40,
+    "verified_count": 40
   },
   "incidents": [
+    {
+      "id": "32839d1fed77",
+      "title": "I-79 Debris in Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-08-03T15:03:15+00:00",
+      "summary": "Debris in Roadway on I-79S at Mile Marker 113.5.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "544a2e00d642",
       "title": "Car goes over embankment in overnight accident on I-79 in Marion County",
