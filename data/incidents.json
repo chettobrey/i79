@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-08-11T18:48:35.160532+00:00",
-    "incident_count": 234,
+    "generated_at": "2026-08-12T01:05:35.465384+00:00",
+    "incident_count": 235,
     "suspected_fatalities": 29,
-    "construction_related_count": 40,
+    "construction_related_count": 41,
     "official_source_count": 42,
     "verified_count": 42
   },
   "incidents": [
+    {
+      "id": "a19eae0caf3f",
+      "title": "UPDATE: I-79 reopened following tractor trailer accident, shut down lasted over 3 hours",
+      "url": "https://www.wdtv.com/2026/08/11/crash-with-entrapment-closes-i-79-northbound-near-mcwhorter-detour-place/",
+      "source": "wdtv.com",
+      "published_at": "2026-08-11T18:46:26.507000+00:00",
+      "summary": "A single-vehicle crash involving a jackknifed semi-truck hauling maple syrup has closed Interstate 79 Northbound in Harrison County on Tuesday afternoon, according to 911 officials.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": true,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "85c8747fad55",
       "title": "I-79 Vehicle Crash",
