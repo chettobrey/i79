@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-08-19T06:28:05.357396+00:00",
-    "incident_count": 239,
+    "generated_at": "2026-08-19T12:25:34.574130+00:00",
+    "incident_count": 240,
     "suspected_fatalities": 29,
     "construction_related_count": 41,
-    "official_source_count": 46,
-    "verified_count": 46
+    "official_source_count": 47,
+    "verified_count": 47
   },
   "incidents": [
+    {
+      "id": "f7738cf7b18a",
+      "title": "I-79 Pot hole Roadway",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-08-19T07:36:13+00:00",
+      "summary": "Pot hole Roadway on I-79N at Mile Marker 143.0.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "336e71fca1ff",
       "title": "I-79 Pavement Marking",
