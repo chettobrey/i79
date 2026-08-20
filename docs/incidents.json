@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-08-19T18:21:14.009941+00:00",
-    "incident_count": 244,
+    "generated_at": "2026-08-20T00:40:35.334476+00:00",
+    "incident_count": 245,
     "suspected_fatalities": 29,
     "construction_related_count": 44,
-    "official_source_count": 51,
-    "verified_count": 51
+    "official_source_count": 52,
+    "verified_count": 52
   },
   "incidents": [
+    {
+      "id": "ad6b1c2c883c",
+      "title": "I-79 Rehabilitation Project Activities",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-08-19T12:33:30+00:00",
+      "summary": "Rehabilitation Project Activities on I-79N from Mile Marker 159.0 to Mile Marker 160.52.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "6bb58d948153",
       "title": "I-79 Construction",
