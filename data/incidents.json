@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-08-21T12:27:49.059456+00:00",
-    "incident_count": 245,
+    "generated_at": "2026-08-21T18:24:36.927603+00:00",
+    "incident_count": 246,
     "suspected_fatalities": 29,
     "construction_related_count": 44,
-    "official_source_count": 52,
-    "verified_count": 52
+    "official_source_count": 53,
+    "verified_count": 53
   },
   "incidents": [
+    {
+      "id": "8e4787dafb86",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-08-21T12:19:30+00:00",
+      "summary": "Vehicle Crash on I-79N at Mile Marker 122.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "ad6b1c2c883c",
       "title": "I-79 Rehabilitation Project Activities",
