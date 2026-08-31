@@ -1,13 +1,64 @@
 {
   "summary": {
-    "generated_at": "2026-08-31T12:10:22.523960+00:00",
-    "incident_count": 247,
+    "generated_at": "2026-08-31T22:13:26.114232+00:00",
+    "incident_count": 250,
     "suspected_fatalities": 29,
     "construction_related_count": 44,
-    "official_source_count": 54,
-    "verified_count": 54
+    "official_source_count": 55,
+    "verified_count": 55
   },
   "incidents": [
+    {
+      "id": "4951694adfbe",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-08-31T17:02:25+00:00",
+      "summary": "Vehicle Crash on I-79N at Mile Marker 123.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "6a7cba0c9911",
+      "title": "2 people taken to hospital following rollover accident on I-79 in Mon County",
+      "url": "https://www.wdtv.com/2026/08/31/2-people-taken-hospital-following-rollover-accident-i-79-mon-county/",
+      "source": "wdtv.com",
+      "published_at": "2026-08-31T13:22:35.826000+00:00",
+      "summary": "Two people were taken to the hospital with minor injuries after a rollover accident on I-79 Monday morning.",
+      "location_text": "Unspecified stretch",
+      "lat": null,
+      "lon": null,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "bb7fed1afc8b",
+      "title": "Mon County I-79 crash sends 2 to hospital with injuries",
+      "url": "https://www.wboy.com/news/monongalia/mon-county-i-79-crash-sends-2-to-hospital-with-injuries/",
+      "source": "wboy.com",
+      "published_at": "2026-08-31T13:01:31+00:00",
+      "summary": "According to a Facebook post made by the Monongalia County Sheriff's Office, the accident occurred near the 159 mile marker at around 7:50 a.m. on Monday morning.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "3b9525485ade",
       "title": "I-79 Vehicle Crash",
