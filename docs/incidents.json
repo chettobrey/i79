@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-09-03T15:30:31.894104+00:00",
-    "incident_count": 253,
+    "generated_at": "2026-09-03T20:17:33.236138+00:00",
+    "incident_count": 254,
     "suspected_fatalities": 29,
-    "construction_related_count": 45,
-    "official_source_count": 57,
-    "verified_count": 57
+    "construction_related_count": 46,
+    "official_source_count": 58,
+    "verified_count": 58
   },
   "incidents": [
+    {
+      "id": "c80767c8f752",
+      "title": "I-79 Paving Operations",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-09-03T13:45:04+00:00",
+      "summary": "Paving Operations on I-79S at Mile Marker 137.1.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": true,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "2821370863ab",
       "title": "I-79 South shuts down due to vehicle accident between I-68 split &amp; Goshen Road",
