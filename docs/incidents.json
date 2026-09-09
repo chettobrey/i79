@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-09-08T20:29:27.991249+00:00",
-    "incident_count": 254,
+    "generated_at": "2026-09-09T02:07:31.487812+00:00",
+    "incident_count": 255,
     "suspected_fatalities": 29,
     "construction_related_count": 46,
-    "official_source_count": 58,
-    "verified_count": 58
+    "official_source_count": 59,
+    "verified_count": 59
   },
   "incidents": [
+    {
+      "id": "b72a39d7363a",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-09-08T19:17:53+00:00",
+      "summary": "Vehicle Crash on I-79S at Mile Marker 106.42.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "c80767c8f752",
       "title": "I-79 Paving Operations",
