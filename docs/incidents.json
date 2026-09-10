@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-09-10T10:15:15.793187+00:00",
-    "incident_count": 256,
+    "generated_at": "2026-09-10T15:29:10.276910+00:00",
+    "incident_count": 257,
     "suspected_fatalities": 29,
     "construction_related_count": 47,
     "official_source_count": 60,
     "verified_count": 60
   },
   "incidents": [
+    {
+      "id": "c9e3ba1eed36",
+      "title": "One transported after Marion County I-79 accident",
+      "url": "https://www.wboy.com/news/marion/one-transported-after-marion-county-i-79-accident/",
+      "source": "wboy.com",
+      "published_at": "2026-09-10T14:18:35+00:00",
+      "summary": "An individual was transported to the hospital Thursday morning after an accident on I-79.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "04fedb4abd70",
       "title": "I-79 Bridge Work",
