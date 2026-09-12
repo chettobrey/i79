@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generated_at": "2026-09-12T02:07:17.406426+00:00",
-    "incident_count": 258,
+    "generated_at": "2026-09-12T09:46:57.785207+00:00",
+    "incident_count": 259,
     "suspected_fatalities": 29,
-    "construction_related_count": 47,
-    "official_source_count": 61,
-    "verified_count": 61
+    "construction_related_count": 48,
+    "official_source_count": 62,
+    "verified_count": 62
   },
   "incidents": [
     {
@@ -19,6 +19,23 @@
       "lat": 39.3032,
       "lon": -80.3781,
       "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "fb42b883e823",
+      "title": "I-79 Paving Operations",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-09-11T16:38:23+00:00",
+      "summary": "Paving Operations on I-79N from Mile Marker 155.0 to Mile Marker 160.52.",
+      "location_text": "Monongalia County",
+      "lat": 39.6525,
+      "lon": -80.0041,
+      "construction_related": true,
       "suspected_fatalities": 0,
       "source_type": "official_wv511",
       "verification_status": "official",
