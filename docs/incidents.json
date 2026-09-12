@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-09-11T20:13:25.130800+00:00",
-    "incident_count": 257,
+    "generated_at": "2026-09-12T02:07:17.406426+00:00",
+    "incident_count": 258,
     "suspected_fatalities": 29,
     "construction_related_count": 47,
-    "official_source_count": 60,
-    "verified_count": 60
+    "official_source_count": 61,
+    "verified_count": 61
   },
   "incidents": [
+    {
+      "id": "02e31c5f9a4d",
+      "title": "I-79 Vehicle Crash",
+      "url": "https://www.wv511.org/TravelConditions/TravelDelay.aspx",
+      "source": "wv511.org",
+      "published_at": "2026-09-11T18:50:19+00:00",
+      "summary": "Vehicle Crash on I-79S at Mile Marker 124.0.",
+      "location_text": "Harrison County",
+      "lat": 39.3032,
+      "lon": -80.3781,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "official_wv511",
+      "verification_status": "official",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "c9e3ba1eed36",
       "title": "One transported after Marion County I-79 accident",
