@@ -1,13 +1,47 @@
 {
   "summary": {
-    "generated_at": "2026-09-14T17:14:53.761469+00:00",
-    "incident_count": 259,
+    "generated_at": "2026-09-14T21:11:04.176360+00:00",
+    "incident_count": 261,
     "suspected_fatalities": 29,
-    "construction_related_count": 48,
+    "construction_related_count": 50,
     "official_source_count": 62,
     "verified_count": 62
   },
   "incidents": [
+    {
+      "id": "60e1914d1dd0",
+      "title": "3-vehicle accident in Fairmont closes I-79 southbound lane",
+      "url": "https://www.wboy.com/news/marion/3-vehicle-accident-in-fairmont-closes-i-79-southbound-lane/",
+      "source": "wboy.com",
+      "published_at": "2026-09-14T20:21:40+00:00",
+      "summary": "A three-vehicle accident in Fairmont caused a southbound lane closure on Interstate-79 Monday.",
+      "location_text": "Fairmont",
+      "lat": 39.4851,
+      "lon": -80.1426,
+      "construction_related": true,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
+    {
+      "id": "7aa77793c58e",
+      "title": "Vehicle accident on I-79 in Marion County causes lane closures",
+      "url": "https://www.wdtv.com/2026/09/14/vehicle-accident-i-79-marion-county-causes-lane-closures/",
+      "source": "wdtv.com",
+      "published_at": "2026-09-14T19:58:16.462000+00:00",
+      "summary": "A vehicle accident in Marion County prompted for temporary lane closures on I-79. on Monday.",
+      "location_text": "Marion County",
+      "lat": 39.4568,
+      "lon": -80.1542,
+      "construction_related": true,
+      "suspected_fatalities": 0,
+      "source_type": "news_archive_wdtv",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "02e31c5f9a4d",
       "title": "I-79 Vehicle Crash",
