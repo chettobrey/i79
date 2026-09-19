@@ -1,13 +1,30 @@
 {
   "summary": {
-    "generated_at": "2026-09-19T02:12:59.087313+00:00",
-    "incident_count": 261,
+    "generated_at": "2026-09-19T09:56:41.522198+00:00",
+    "incident_count": 262,
     "suspected_fatalities": 29,
     "construction_related_count": 50,
     "official_source_count": 62,
     "verified_count": 62
   },
   "incidents": [
+    {
+      "id": "9bf819a8be61",
+      "title": "Kanawha County crash claims life",
+      "url": "https://wvmetronews.com/2026/09/19/kanawha-county-crash-claims-life-4/",
+      "source": "wvmetronews.com",
+      "published_at": "2026-09-19T09:47:08+00:00",
+      "summary": "Two vehicles involved in I-79 wreck early Saturday morning near Elkview exit. The post Kanawha County crash claims life appeared first on WV MetroNews .",
+      "location_text": "Unspecified stretch",
+      "lat": null,
+      "lon": null,
+      "construction_related": false,
+      "suspected_fatalities": 0,
+      "source_type": "news",
+      "verification_status": "unverified",
+      "verified_fatalities": null,
+      "notes": ""
+    },
     {
       "id": "60e1914d1dd0",
       "title": "3-vehicle accident in Fairmont closes I-79 southbound lane",
